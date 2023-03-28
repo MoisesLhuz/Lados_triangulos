@@ -20,7 +20,7 @@ public class triangulo {
         //estrutura de decisão
         if (a == b && a == c) {
             System.out.println("Triângulo Equilátero");
-        } else if(((a == b) && (a != c)) || ((a == c) && (a != c))){
+        } else if(((a == b) && (a != c)) || ((a == c) && (a != b))){
             System.out.println("Triângulo Isósceles");
         }else{
             System.out.println("Triângulo Escaleno");
